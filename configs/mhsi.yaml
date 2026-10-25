@@ -1,0 +1,26 @@
+exp:
+  backbone: mit_b0
+
+dataset:
+  root_dir: datasets
+  num_classes: 19
+
+train:
+  split: train_aug
+  samples_per_gpu: 96
+  num_epoch: 500
+  eval_epoch: 1
+
+val:
+  split: val
+
+optimizer:
+  type: SGD
+  learning_rate: 0.01
+  betas: [0.9, 0.999]
+  weight_decay: 5e-4
+
+scheduler:
+  warmup_iter: 1500
+  warmup_ratio: 1e-6
+  power: 1.0
