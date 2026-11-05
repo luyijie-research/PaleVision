@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Paleoinspired Vision | PaleVision</title>
+  <meta name="description" content="Paleoinspired Vision: From Exploring Colour Vision Evolution to Inspiring Camera Design. Learnable opsin spectral responses connect evolutionary biology and task-specific imaging.">
+  <link rel="canonical" href="https://luyijie-research.github.io/PaleVision/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="PaleVision">
+  <meta property="og:title" content="Paleoinspired Vision">
+  <meta property="og:description" content="From Exploring Colour Vision Evolution to Inspiring Camera Design">
+  <meta property="og:url" content="https://luyijie-research.github.io/PaleVision/">
+  <meta property="og:image" content="https://luyijie-research.github.io/PaleVision/assets/thumbnail.jpg">
+  <meta property="og:image:secure_url" content="https://luyijie-research.github.io/PaleVision/assets/thumbnail.jpg">
+  <meta property="og:image:type" content="image/jpeg">
+  <meta property="og:image:width" content="1280">
+  <meta property="og:image:height" content="581">
+  <meta property="og:image:alt" content="A blue fish and spectral light illustrate the connection between colour vision and camera filter design.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Paleoinspired Vision">
+  <meta name="twitter:description" content="From Exploring Colour Vision Evolution to Inspiring Camera Design">
+  <meta name="twitter:image" content="https://luyijie-research.github.io/PaleVision/assets/thumbnail.jpg">
+  <meta name="twitter:image:alt" content="A blue fish and spectral light illustrate the connection between colour vision and camera filter design.">
+  <meta name="theme-color" content="#fafbf9">
+  <style>
+    :root{--ink:#19302c;--muted:#64726e;--green:#376a57;--line:#dce5df;--paper:#fafbf9;--blue:#eaf3f8;--mint:#eef5ed;--rose:#faf0eb}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:88px}body{margin:0;background:var(--paper);color:var(--ink);font-family:Arial,Helvetica,sans-serif;-webkit-font-smoothing:antialiased;line-height:1.65}
+    a{color:inherit;text-decoration:none}a:focus-visible,button:focus-visible{outline:3px solid #699fd1;outline-offset:5px}button{font:inherit}::selection{background:#d9eadf}
+    .wrap{max-width:1080px;margin:auto;padding:0 32px}nav{border-bottom:1px solid var(--line);background:rgba(250,251,249,.96);position:sticky;top:0;z-index:10}
+    .nav-inner{height:70px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-size:19px;font-weight:700;letter-spacing:-.6px}.brand span{color:var(--green)}.nav-links{display:flex;gap:26px;font-size:13px;color:var(--muted)}.nav-links a:hover{color:var(--green)}
+    header{text-align:center;padding:68px 0 34px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--green);font-size:12px;letter-spacing:1.5px}.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
+    h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(42px,6.5vw,72px);line-height:1.12;letter-spacing:-2.4px;margin:23px 0 16px;text-wrap:balance}
+    .subtitle{font-size:clamp(19px,2.6vw,27px);line-height:1.4;letter-spacing:-.5px;max-width:800px;margin:0 auto 28px;text-wrap:balance}
+    .authors{font-size:14px;max-width:860px;margin:0 auto 14px;line-height:2.1;text-wrap:balance}.authors span{display:inline-block;margin:0 7px}.authors sup{font-size:9px;color:var(--green);margin-left:2px}
+    .affiliations{max-width:850px;margin:auto;font-size:11px;color:var(--muted);line-height:1.9;text-wrap:balance}.affiliations span{display:inline-block;margin:0 7px}.correspondence{font-size:11px;color:var(--muted);margin:11px 0 0}
+    .buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 22px;border-radius:6px;border:1px solid var(--line);font-size:13px;font-weight:600;background:white}.btn.primary{background:var(--ink);border-color:var(--ink);color:white}.btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px #19302c12}
+    .hero{margin:0;padding:16px 0 40px}.image-shell{overflow:hidden;border:1px solid var(--line);border-radius:12px;background:white;padding:8px;box-shadow:0 12px 40px #19302c08}.hero img{display:block;width:100%;height:auto;border-radius:6px}.hero figcaption{text-align:center;color:var(--muted);font-size:12px;margin:16px auto 0;max-width:680px;text-wrap:balance}
+    section{padding:48px 0;border-top:1px solid var(--line)}.section-heading{display:flex;align-items:baseline;gap:20px;margin-bottom:23px}.section-num{color:var(--green);font-size:12px;font-weight:600}h2{font:400 34px/1.25 Georgia,'Times New Roman',serif;letter-spacing:-.7px;margin:0}
+    .lead{font:400 26px/1.5 Georgia,'Times New Roman',serif;max-width:900px;margin:0 0 24px;text-wrap:pretty}.body-copy{color:#4b5d56;font-size:15px;line-height:1.9;max-width:920px;text-wrap:pretty}.body-copy p{margin:0 0 18px}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:28px}.card{padding:27px 24px;border-radius:10px}.card:nth-child(1){background:var(--blue)}.card:nth-child(2){background:var(--mint)}.card:nth-child(3){background:var(--rose)}.card .step{font-size:11px;color:var(--muted)}h3{font-size:17px;line-height:1.4;letter-spacing:-.3px;margin:18px 0 12px}.card p{font-size:13px;line-height:1.8;color:#4b5d56;margin:0;text-wrap:pretty}
+    .research{display:grid;grid-template-columns:1fr 1fr;gap:32px}.research p{font-size:14px;color:#4b5d56;line-height:1.9;text-wrap:pretty}.research h3{margin-top:0}.text-link{font-size:13px;font-weight:600;color:var(--green);border-bottom:1px solid #9db8a9;padding-bottom:3px}
+    .code-box{position:relative;border:1px solid var(--line);background:#f0f4ef;border-radius:9px;padding:24px;margin:20px 0}pre{font:12px/1.8 ui-monospace,SFMono-Regular,Consolas,monospace;white-space:pre-wrap;overflow-wrap:anywhere;margin:0;color:#3e564b}.copy{position:absolute;top:12px;right:12px;background:white;border:1px solid var(--line);border-radius:4px;padding:5px 11px;font-size:11px;color:var(--muted);cursor:pointer}.citation pre{padding-right:46px}
+    footer{border-top:1px solid var(--line);padding:26px 0 34px;color:var(--muted);font-size:11px}.footer-inner{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:700px){.wrap{padding:0 21px}.nav-inner{height:60px}.nav-links{gap:16px;font-size:12px}.nav-links .desktop{display:none}header{padding-top:43px}h1{letter-spacing:-1.6px}.authors{font-size:12px}.affiliations{font-size:10px}.cards,.research{grid-template-columns:1fr}.cards{gap:12px}.card{padding:23px}.card h3{margin-top:9px}.lead{font-size:23px}section{padding:35px 0}h2{font-size:29px}.hero{padding-bottom:30px}.image-shell{padding:4px;border-radius:8px}.hero figcaption{font-size:11px}.body-copy{font-size:14px}.citation pre{padding-right:0;padding-top:24px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.btn:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <nav aria-label="Main navigation"><div class="wrap nav-inner">
+    <a class="brand" href="./">Paleo<span>Vision</span></a>
+    <div class="nav-links"><a href="#overview">Overview</a><a class="desktop" href="#research">Research</a><a href="#code">Code</a><a href="https://github.com/luyijie-research/PaleVision">GitHub ↗</a></div>
+  </div></nav>
+  <main class="wrap">
+    <header>
+      <div class="eyebrow"><span class="dot"></span>Evolution · Perception · Imaging</div>
+      <h1>Paleoinspired Vision</h1>
+      <p class="subtitle">From Exploring Colour Vision Evolution<br>to Inspiring Camera Design</p>
+      <p class="authors">
+        <span>Yijie Lu<sup>1</sup></span><span>Zhimin Zong<sup>2</sup></span><span>Junjie Zhang<sup>3</sup></span><span>Shenghan Su<sup>4</sup></span><span>Zeyun Zhao<sup>5</sup></span><span>Ziteng Cui<sup>4,6</sup></span><span>Yan Pu<sup>7</sup></span><span>Jing Lu<sup>7</sup></span><span>Daisuke Kojima<sup>6</sup></span><span>Lin Gu<sup>8,*</sup></span><span>Ruogu Fang<sup>5</sup></span>
+      </p>
+      <div class="affiliations">
+        <span><sup>1</sup> Peking University</span><span><sup>2</sup> University of Florida</span><span><sup>3</sup> The University of Hong Kong</span><span><sup>4</sup> The Hong Kong University of Science and Technology (Guangzhou)</span><span><sup>5</sup> Vanderbilt University</span><span><sup>6</sup> The University of Tokyo</span><span><sup>7</sup> Key Laboratory of Vertebrate Evolution and Human Origins, IVPP, Chinese Academy of Sciences</span><span><sup>8</sup> Tohoku University</span>
+      </div>
+      <p class="correspondence">* Corresponding author: <a href="mailto:lin@tohoku.ac.jp">Lin Gu</a></p>
+      <div class="buttons"><a class="btn primary" href="https://github.com/luyijie-research/PaleVision">View code ↗</a><a class="btn" href="#abstract">Read abstract ↓</a><a class="btn" href="#citation">Citation</a></div>
+    </header>
+    <figure class="hero">
+      <div class="image-shell"><img src="assets/thumbnail.jpg" width="1280" height="581" fetchpriority="high" alt="A blue fish and spectral light illustrate the connection between colour vision and camera filter design."></div>
+      <figcaption>Exploring how organisms perceive colour, and translating the principles of visual evolution into camera design.</figcaption>
+    </figure>
+    <section id="overview">
+      <div class="section-heading"><span class="section-num">01</span><h2>Vision shaped by evolution</h2></div>
+      <p class="lead">What can millions of years of colour vision evolution teach us about designing cameras?</p>
+      <div class="body-copy"><p>Paleoinspired Vision connects evolutionary biology with machine vision through a learnable model of opsin spectral sensitivity. Recognition performance provides a task-driven measure of evolutionary pressure, allowing us to explore how visual systems adapt to their environments and how these adaptations can inform imaging technology.</p></div>
+      <div class="cards">
+        <article class="card"><span class="step">Stage 1 · Perception</span><h3>Model the opsin response</h3><p>A learnable opsin layer transforms hyperspectral input into colour images, modelling a simplified version of visual transduction in the retina.</p></article>
+        <article class="card"><span class="step">Stage 2 · Evolution</span><h3>Explore visual adaptation</h3><p>Evolutionary conservation optimisation uses recognition performance to guide mutation-driven changes in spectral sensitivity.</p></article>
+        <article class="card"><span class="step">Stage 3 · Camera design</span><h3>Translate biology into imaging</h3><p>The learned spectral responses inform task-specific camera filters, connecting biological adaptation with application-driven design.</p></article>
+      </div>
+    </section>
+    <section id="abstract">
+      <div class="section-heading"><span class="section-num">02</span><h2>Abstract</h2></div>
+      <div class="body-copy">
+        <p>The evolution of colour vision is captivating, as it reveals the adaptive strategies of extinct species while simultaneously inspiring innovations in modern imaging technology. In this study, we present a simplified model of visual transduction in the retina, introducing a novel opsin layer. We quantify evolutionary pressures by measuring machine vision recognition accuracy on colour images shaped by specific opsins. Building on this, we develop an evolutionary conservation optimisation algorithm to reconstruct the spectral sensitivity of opsins, enabling mutation-driven adaptations to more effectively spot fruits or predators. This model condenses millions of years of evolution into seconds using GPU, providing an experimental framework to test long-standing hypotheses in evolutionary biology, such as vision of early mammals, primate trichromacy from gene duplication, retention of colour blindness, blue-shift of fish rod and multiple rod opsins with bioluminescence.</p>
+        <p>Beyond validating existing paleontological hypotheses, our model further enables speculative explorations of hypothetical species, such as organisms with visual systems adapted to Martian conditions. These constitute our contributions to AI for life science and neuroscience. Besides, the principles derived from these biological studies can translate into practical engineering solutions. In practice, our findings suggest a minimalist yet effective approach to task-specific camera filter design, optimising the spectral response function to meet application-driven demands.</p>
+      </div>
+    </section>
+    <section id="research">
+      <div class="section-heading"><span class="section-num">03</span><h2>From biological questions to engineering</h2></div>
+      <div class="research">
+        <article><h3>Revisiting colour vision evolution</h3><p>The framework investigates hypotheses spanning early mammalian vision, primate trichromacy, colour blindness, fish rod blue-shifts and multiple rod opsins in bioluminescent environments. Hypothetical Martian adaptations extend this exploration beyond existing species.</p></article>
+        <article><h3>Learning task-specific spectral responses</h3><p>The implementation includes evolutionary visual perception layers (EVPL), a MiT backbone and a SegFormer head for hyperspectral semantic segmentation. Learned spectral sensitivities provide a route toward camera filters tailored to recognition tasks.</p></article>
+      </div>
+    </section>
+    <section id="code">
+      <div class="section-heading"><span class="section-num">04</span><h2>Explore the implementation</h2></div>
+      <div class="body-copy"><p>The public repository contains model components, experiment configurations, dataset loaders and training entry points. Start with the README for environment setup and data preparation.</p></div>
+      <div class="code-box"><pre>git clone https://github.com/luyijie-research/PaleVision.git
+cd PaleVision
+conda create -n palevision python=3.10 -y
+conda activate palevision
+pip install -r requirements.txt</pre></div>
+      <a class="text-link" href="https://github.com/luyijie-research/PaleVision#readme">Installation and experiment instructions ↗</a>
+    </section>
+    <section id="citation" class="citation">
+      <div class="section-heading"><span class="section-num">05</span><h2>Citation</h2></div>
+      <div class="code-box">
+        <button class="copy" type="button" id="copy-citation" aria-label="Copy BibTeX citation">Copy</button>
+        <pre id="bibtex">@misc{lu2026paleoinspired,
+  title  = {Paleoinspired Vision: From Exploring Colour Vision Evolution to Inspiring Camera Design},
+  author = {Lu, Yijie and Zong, Zhimin and Zhang, Junjie and Su, Shenghan and Zhao, Zeyun and Cui, Ziteng and Pu, Yan and Lu, Jing and Kojima, Daisuke and Gu, Lin and Fang, Ruogu},
+  year   = {2026},
+  url    = {https://github.com/luyijie-research/PaleVision}
+}</pre>
+      </div>
+      <span id="copy-status" role="status" style="font-size:12px;color:var(--muted)"></span>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>PaleVision · Paleoinspired Vision</span><a href="https://github.com/luyijie-research/PaleVision">Project source on GitHub ↗</a></div></footer>
+  <script>
+    document.getElementById('copy-citation').addEventListener('click', async function () {
+      try {
+        await navigator.clipboard.writeText(document.getElementById('bibtex').textContent);
+        document.getElementById('copy-status').textContent = 'Citation copied.';
+      } catch (_) {
+        const range = document.createRange();
+        range.selectNodeContents(document.getElementById('bibtex'));
+        const selection = window.getSelection();
+        selection.removeAllRanges();
+        selection.addRange(range);
+        document.getElementById('copy-status').textContent = 'Select and copy the citation above.';
+      }
+    });
+  </script>
+</body>
+</html>
