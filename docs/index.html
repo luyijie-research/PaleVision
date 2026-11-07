@@ -34,6 +34,7 @@
     header{text-align:center;padding:68px 0 34px}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--green);font-size:12px;letter-spacing:1.5px}.dot{width:7px;height:7px;border-radius:50%;background:var(--green)}
     h1{font-family:Georgia,'Times New Roman',serif;font-weight:400;font-size:clamp(42px,6.5vw,72px);line-height:1.12;letter-spacing:-2.4px;margin:23px 0 16px;text-wrap:balance}
     .subtitle{font-size:clamp(19px,2.6vw,27px);line-height:1.4;letter-spacing:-.5px;max-width:800px;margin:0 auto 28px;text-wrap:balance}
+    .venue{font-size:14px;font-weight:600;color:var(--green);margin:-10px 0 22px}
     .authors{font-size:14px;max-width:860px;margin:0 auto 14px;line-height:2.1;text-wrap:balance}.authors span{display:inline-block;margin:0 7px}.authors sup{font-size:9px;color:var(--green);margin-left:2px}
     .affiliations{max-width:850px;margin:auto;font-size:11px;color:var(--muted);line-height:1.9;text-wrap:balance}.affiliations span{display:inline-block;margin:0 7px}.correspondence{font-size:11px;color:var(--muted);margin:11px 0 0}
     .buttons{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 22px;border-radius:6px;border:1px solid var(--line);font-size:13px;font-weight:600;background:white}.btn.primary{background:var(--ink);border-color:var(--ink);color:white}.btn:hover{transform:translateY(-1px);box-shadow:0 4px 14px #19302c12}
@@ -58,6 +59,7 @@
       <div class="eyebrow"><span class="dot"></span>Evolution · Perception · Imaging</div>
       <h1>Paleoinspired Vision</h1>
       <p class="subtitle">From Exploring Colour Vision Evolution<br>to Inspiring Camera Design</p>
+      <p class="venue">Accepted at NeurIPS 2026</p>
       <p class="authors">
         <span>Yijie Lu<sup>1</sup></span><span>Zhimin Zong<sup>2</sup></span><span>Junjie Zhang<sup>3</sup></span><span>Shenghan Su<sup>4</sup></span><span>Zeyun Zhao<sup>5</sup></span><span>Ziteng Cui<sup>4,6</sup></span><span>Yan Pu<sup>7</sup></span><span>Jing Lu<sup>7</sup></span><span>Daisuke Kojima<sup>6</sup></span><span>Lin Gu<sup>8,*</sup></span><span>Ruogu Fang<sup>5</sup></span>
       </p>
@@ -107,13 +109,15 @@ pip install -r requirements.txt</pre></div>
     </section>
     <section id="citation" class="citation">
       <div class="section-heading"><span class="section-num">05</span><h2>Citation</h2></div>
+      <div class="body-copy"><p>If you use PaleVision in your research, please cite our NeurIPS 2026 paper:</p></div>
       <div class="code-box">
         <button class="copy" type="button" id="copy-citation" aria-label="Copy BibTeX citation">Copy</button>
-        <pre id="bibtex">@misc{lu2026paleoinspired,
-  title  = {Paleoinspired Vision: From Exploring Colour Vision Evolution to Inspiring Camera Design},
-  author = {Lu, Yijie and Zong, Zhimin and Zhang, Junjie and Su, Shenghan and Zhao, Zeyun and Cui, Ziteng and Pu, Yan and Lu, Jing and Kojima, Daisuke and Gu, Lin and Fang, Ruogu},
-  year   = {2026},
-  url    = {https://github.com/luyijie-research/PaleVision}
+        <pre id="bibtex">@inproceedings{lu2026paleoinspired,
+  title     = {Paleoinspired Vision: From Exploring Colour Vision Evolution to Inspiring Camera Design},
+  author    = {Lu, Yijie and Zong, Zhimin and Zhang, Junjie and Su, Shenghan and Zhao, Zeyun and Cui, Ziteng and Pu, Yan and Lu, Jing and Kojima, Daisuke and Gu, Lin and Fang, Ruogu},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026},
+  url       = {https://luyijie-research.github.io/PaleVision/}
 }</pre>
       </div>
       <span id="copy-status" role="status" style="font-size:12px;color:var(--muted)"></span>

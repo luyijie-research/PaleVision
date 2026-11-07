@@ -1,5 +1,9 @@
 # PaleVision
 
+Official implementation of **Paleoinspired Vision: From Exploring Colour Vision Evolution to Inspiring Camera Design**, accepted at **NeurIPS 2026**.
+
+[Project website](https://luyijie-research.github.io/PaleVision/)
+
 PaleVision models opsin spectral responses with learnable evolutionary visual perception layers (EVPL) and trains semantic segmentation on hyperspectral imagery.
 
 ## Structure
@@ -74,3 +78,17 @@ Other entry points: `modid_exp.py`, `mhsi_exp.py`, `lib_hsi_exp_v2.py`, `minneap
 
 - No pretrained weights are included.
 - Checkpoints written under `work_dir/` are ignored by git.
+
+## Citation
+
+If you use PaleVision in your research, please cite our NeurIPS 2026 paper:
+
+```bibtex
+@inproceedings{lu2026paleoinspired,
+  title     = {Paleoinspired Vision: From Exploring Colour Vision Evolution to Inspiring Camera Design},
+  author    = {Lu, Yijie and Zong, Zhimin and Zhang, Junjie and Su, Shenghan and Zhao, Zeyun and Cui, Ziteng and Pu, Yan and Lu, Jing and Kojima, Daisuke and Gu, Lin and Fang, Ruogu},
+  booktitle = {Advances in Neural Information Processing Systems},
+  year      = {2026},
+  url       = {https://luyijie-research.github.io/PaleVision/}
+}
+```
